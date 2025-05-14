@@ -16,10 +16,7 @@ YTUB_COOKIES = """
 API_ID = int(getenv("API_ID", "25894883"))
 API_HASH = getenv("515876c537d9329ff9c91 e52da58c6ca", "")
 BOT_TOKEN = getenv("7714902342:AAGb_Gdj9lbuZjxwUgy6AlR3wBMWGwKO54w", "")
-OWNER_ID = list(map(int, getenv("@sunil002", "").split()))
-MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
+
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
